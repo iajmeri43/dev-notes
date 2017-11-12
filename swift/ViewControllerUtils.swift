@@ -61,8 +61,9 @@ class ViewControllerUtils {
 }
 
 //// In order to show the activity indicator, call the function from your view controller
-//// ViewControllerUtils().showActivityIndicator(self.view)
+//// let viewControllerUtils = ViewControllerUtils()   <--- you must make an object of class 
+//// viewControllerUtils.showActivityIndicator(self.view)
 
 //// In order to hide the activity indicator, call the function from your view controller
-//// ViewControllerUtils().hideActivityIndicator(self.view)
+//// viewControllerUtils.hideActivityIndicator(self.view)
 
